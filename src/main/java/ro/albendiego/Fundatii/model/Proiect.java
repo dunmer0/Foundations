@@ -7,6 +7,7 @@ import ro.albendiego.Fundatii.model.fundatie.Fundatie;
 import ro.albendiego.Fundatii.model.teren.Foraj;
 
 import java.io.Serializable;
+import java.util.HashSet;
 import java.util.Set;
 
 @Data
@@ -14,6 +15,6 @@ import java.util.Set;
 public class Proiect implements Serializable {
     private String numar;
     private String nume;
-    private Set<Fundatie> fundatii;
-    private Set<Foraj> foraje;
+    private Set<Fundatie> fundatii = new HashSet<>();
+    private Set<Foraj> foraje = new HashSet<>();
 }

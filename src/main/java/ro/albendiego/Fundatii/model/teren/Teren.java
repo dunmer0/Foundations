@@ -11,6 +11,6 @@ public class Teren implements Serializable {
     private double grosime;
     private double unghiFrecare;
     private double coeziune;
-    private double moduleEdometric;
+    private double modulEdometric;
     private double coeficientCorectie;
 }

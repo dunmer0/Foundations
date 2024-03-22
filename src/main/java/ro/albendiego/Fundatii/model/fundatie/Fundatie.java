@@ -8,6 +8,7 @@ import java.io.Serializable;
 @Data
 @Builder
 public class Fundatie implements Serializable {
+    private String nume;
     private Sectiune sectiune;
     private Efort efort;
     private Beton beton;
